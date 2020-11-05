@@ -13,19 +13,7 @@ import java.util.Optional;
 public class Main {
 	public static void main(String[] args) {
 		
-		System.getProperty("java.classpath");
-		// Create our entity manager from Persistence
-		// and createEntityManagerFactory
-		// within unit-persistence "library" 
-		//....
-		//...............
-		EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("library");
-		
-		EntityManager entityManager = entityManagerFactory.createEntityManager();
 
-		// Create our repositories
-		AuthorRepository authorRepository = new AuthorRepository(entityManager);
-		BookRepository bookRepository = new BookRepository(entityManager);
 		
 		// Create four authors
 		Author virginia = new Author("Virginia Wolf", "UK");
