@@ -17,6 +17,7 @@ public class Main {
 		// Create our entity manager from Persistence
 		// and createEntityManagerFactory
 		// within unit-persistence "library" 
+		//....
 		
 		EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("library");
 		
